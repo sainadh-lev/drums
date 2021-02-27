@@ -15,25 +15,25 @@ document.addEventListener("keydown",function () {
 
 function music(c) {
   if(c=== 'w') {
-    new Audio('sounds/crash.mp3').play();
+    new Audio('crash.mp3').play();
   }
   else if(c==='a') {
-    new Audio('sounds/kick-bass.mp3').play();
+    new Audio('kick-bass.mp3').play();
   }
   else if(c==='s') {
-    new Audio('sounds/snare.mp3').play();
+    new Audio('snare.mp3').play();
   }
   else if(c==='d') {
-    new Audio('sounds/tom-1.mp3').play();
+    new Audio('tom-1.mp3').play();
   }
   else if(c==='j') {
-    new Audio('sounds/tom-2.mp3').play();
+    new Audio('tom-2.mp3').play();
   }
   else if(c==='k') {
-    new Audio('sounds/tom-3.mp3').play();
+    new Audio('tom-3.mp3').play();
   }
   else if(c=== 'l'){
-    new Audio('sounds/tom-4.mp3').play();
+    new Audio('tom-4.mp3').play();
   }
 }
 
